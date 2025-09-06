@@ -19,10 +19,10 @@ Prerequisites
 
 Installation
 1. Clone the Repository
-    ```
+```
     git clone https://github.com/yourusername/JournalSync.git
     cd JournalSync
-    ```
+ ```
 
 2. Set Up Virtual Environment
  ```
