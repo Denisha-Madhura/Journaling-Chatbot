@@ -81,7 +81,6 @@ WantedBy=multi-user.target
 Enable and start:sudo systemctl daemon-reload
 sudo systemctl enable ollama
 sudo systemctl start ollama
-
 ```
 
 Usage
