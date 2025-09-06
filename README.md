@@ -19,16 +19,21 @@ Prerequisites
 
 Installation
 1. Clone the Repository
+    ```
     git clone https://github.com/yourusername/JournalSync.git
     cd JournalSync
+    ```
 
 2. Set Up Virtual Environment
+ ```
     python3 -m venv venv
     source venv/bin/activate
     pip install gradio requests neo4j pandas
+```
 
-3. Configure Environment
+4. Configure Environment
 
+```
     Create a config/settings.json file:{
       "neo4j_url": "neo4j+s://<Enter your ID>.databases.neo4j.io",
       "neo4j_user": "neo4j",
@@ -38,18 +43,22 @@ Installation
       "ollama_model": "llama3"
     }
 
+```
+
+5. Install and Configure Ollama
+
+    ```
+    Install Ollama:curl -fsSL https://ollama.com/install.sh | sh
+    ```
 
 
-4. Install and Configure Ollama
-
-Install Ollama:curl -fsSL https://ollama.com/install.sh | sh
-
-
-Download Llama 3:ollama pull llama3
+Download Llama 3:
+    `ollama pull llama3`
 
 
-Set up as a systemd service (optional):sudo nano /etc/systemd/system/ollama.service
+Set up as a systemd service (optional): `sudo nano /etc/systemd/system/ollama.service`
 
+```
 Add:[Unit]
 Description=Ollama Service
 After=network.target
@@ -72,14 +81,14 @@ Enable and start:sudo systemctl daemon-reload
 sudo systemctl enable ollama
 sudo systemctl start ollama
 
-
+```
 
 Usage
 
 Activate the virtual environment:source venv/bin/activate
 
 
-Run the application:python app.py
+Run the application: `python app.py`
 
 
 Open your browser and navigate to http://127.0.0.1:7860.
