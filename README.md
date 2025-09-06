@@ -20,36 +20,37 @@ Prerequisites
 Installation
 1. Clone the Repository
 ```
-    git clone https://github.com/yourusername/JournalSync.git
-    cd JournalSync
+git clone https://github.com/yourusername/JournalSync.git
+cd JournalSync
  ```
 
 2. Set Up Virtual Environment
  ```
-    python3 -m venv venv
-    source venv/bin/activate
-    pip install gradio requests neo4j pandas
+ python3 -m venv venv
+ source venv/bin/activate
+ pip install gradio requests neo4j pandas
 ```
 
 4. Configure Environment
 
 ```
-    Create a config/settings.json file:{
-      "neo4j_url": "neo4j+s://<Enter your ID>.databases.neo4j.io",
-      "neo4j_user": "neo4j",
-      "neo4j_password": "<Enter your own password>",
-      "neo4j_database": "neo4j",
-      "ollama_url": "http://localhost:11434/api/generate",
-      "ollama_model": "llama3"
-    }
+Create a config/settings.json file:{
+  "neo4j_url": "neo4j+s://<Enter your ID>.databases.neo4j.io",
+  "neo4j_user": "neo4j",
+  "neo4j_password": "<Enter your own password>",
+  "neo4j_database": "neo4j",
+  "ollama_url": "http://localhost:11434/api/generate",
+  "ollama_model": "llama3"
+}
 
 ```
 
 5. Install and Configure Ollama
 
-    ```
-    Install Ollama:curl -fsSL https://ollama.com/install.sh | sh
-    ```
+    Install Ollama:
+   ```
+   curl -fsSL https://ollama.com/install.sh | sh
+   ```
 
 
 Download Llama 3:
