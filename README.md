@@ -94,7 +94,10 @@ Run the application: `python app.py`
 Open your browser and navigate to http://127.0.0.1:7860.
 Enter a journal entry in the text box and click "Submit" to see AI-generated insights.
 
-Screenshots
+<img width="1593" height="754" alt="Screenshot from 2025-09-06 19-45-27" src="https://github.com/user-attachments/assets/eb792058-877b-4b01-b92a-47c15bbba986" />
+
+<img width="1593" height="754" alt="Screenshot from 2025-09-06 19-41-45" src="https://github.com/user-attachments/assets/ccad46ef-bb2e-48e4-8cc7-18edf76313a7" />
+
 
 [Placeholder for Screenshot 1]: Interface Overview[Insert image of the Gradio interface showing the chatbox and input field here]  
 [Placeholder for Screenshot 2]: Sample Analysis[Insert image of a sample entry with AI analysis (sentiment, summary, etc.) here]
