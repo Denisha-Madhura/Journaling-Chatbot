@@ -98,10 +98,6 @@ Enter a journal entry in the text box and click "Submit" to see AI-generated ins
 
 <img width="1593" height="754" alt="Screenshot from 2025-09-06 19-41-45" src="https://github.com/user-attachments/assets/ccad46ef-bb2e-48e4-8cc7-18edf76313a7" />
 
-
-[Placeholder for Screenshot 1]: Interface Overview[Insert image of the Gradio interface showing the chatbox and input field here]  
-[Placeholder for Screenshot 2]: Sample Analysis[Insert image of a sample entry with AI analysis (sentiment, summary, etc.) here]
-
 Contributing
 Feel free to fork this repository and submit pull requests. Please ensure any changes are tested and documented.
 License
